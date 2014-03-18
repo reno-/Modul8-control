@@ -1439,7 +1439,7 @@
    <Play object="Data" service="message" rampDrive="none" rampFunction="none" active="1" repetitionsFilter="0" priority="0" tag="none" dataspace="none" type="none" dataspaceUnit="none" rangeClipmode="none"/>
   </Transport>
  </application>
- <Scenario name="root" color="255 255 255" viewZoom="1.000000 1.000000" viewPosition="0 0">
+ <Scenario name="root" color="255 255 255" viewZoom="4.000000 1.000000" viewPosition="1902.000000 168.000000">
   <startEvent name="start" date="0u"/>
   <endEvent name="end" date="36000000u"/>
   <event name="j1503625229" date="16u">
@@ -1523,6 +1523,9 @@
    <command address="modul8:/md8key/ctrl_layer_alpha/8">0</command>
    <command address="modul8:/md8key/ctrl_layer_alpha/9">0</command>
   </event>
+  <event name="j2394139210" date="32u"/>
+  <event name="j2409135837" date="1232u"/>
+  <event name="j3889110567" date="1520u"/>
   <event name="j3215554218" date="4880u">
    <command address="modul8:/md8key/ctrl_layer_pixelFX_blurOn/1">0</command>
    <command address="modul8:/md8key/ctrl_layer_pixelFX_blurOn/10">0</command>
@@ -1565,7 +1568,6 @@
    <command address="modul8:/md8key/ctrl_layer_alpha/8">0</command>
    <command address="modul8:/md8key/ctrl_layer_alpha/9">0</command>
   </event>
-  <event name="j2409135837" date="1232u"/>
   <event name="j3771435573" date="9120u">
    <command address="modul8:/md8key/ctrl_layer_alpha/1">1</command>
    <command address="modul8:/md8key/ctrl_layer_alpha/10">1</command>
@@ -1610,7 +1612,7 @@
    <command address="modul8:/md8key/ctrl_layer_position_x/8">0</command>
    <command address="modul8:/md8key/ctrl_layer_position_x/9">0</command>
   </event>
-  <event name="j1352822485" date="12128u">
+  <event name="j1352822485" date="12600u">
    <command address="modul8:/md8key/ctrl_layer_scale_uniform/1">0.140000</command>
    <command address="modul8:/md8key/ctrl_layer_scale_uniform/10">0.140000</command>
    <command address="modul8:/md8key/ctrl_layer_scale_uniform/2">0.110000</command>
@@ -1762,7 +1764,7 @@
     <curve active="1" redundancy="0" sampleRate="40u" function="0.000000 0.000000 1.000000 1.000000 1.000000 1.000000"/>
    </indexedCurves>
   </Automation>
-  <Automation name="MOVE" start="j691688005" end="j1352822485" color="60 60 60" verticalPosition="112u" verticalSize="191u">
+  <Automation name="MOVE" start="j691688005" end="j1352822485" color="60 60 60" verticalPosition="112u" verticalSize="225u">
    <indexedCurves address="modul8:/md8key/ctrl_layer_scale_uniform/9">
     <curve active="1" redundancy="0" sampleRate="40u" function="0.000000 0.500000 1.000000 1.000000 0.090000 1.000000"/>
    </indexedCurves>
@@ -1920,5 +1922,6 @@
   </Automation>
   <Automation name="IniTialiSation" start="j1503625229" end="j2409135837" color="60 60 60" verticalPosition="142u" verticalSize="164u"/>
   <Interval name="j752907756" start="j2409135837" end="j3215554218" durationMin="3648u" durationMax="3648u" color="255 255 255" verticalPosition="0u" verticalSize="1u"/>
+  <Automation name="Box.7" start="j2394139210" end="j3889110567" color="60 60 60" verticalPosition="339u" verticalSize="157u"/>
  </Scenario>
 </jamoma>
