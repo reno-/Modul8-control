@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<jamoma version="0.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jamoma.org/ file:jamoma.xsd">
+ <application author="Renaud Rubiano" version="v1" name="modul8" type="proxy">
+  <!--"a layer model"-->
+  <md8key object="Container" service="model" priority="0">
+<ctrl_layer_mediaSet>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 8" priority="10" valueDefault="0"/>
+</ctrl_layer_mediaSet>
+<ctrl_layer_media>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 132" priority="2" valueDefault="999"/>
+</ctrl_layer_media>
+<ctrl_layer_transition_durationDelta>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="69" valueDefault="0"/>
+</ctrl_layer_transition_durationDelta>
+<ctrl_layer_transition_type>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="70" valueDefault="0"/>
+</ctrl_layer_transition_type>
+<ctrl_layer_transition_duration>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="71" valueDefault="0.500000"/>
+</ctrl_layer_transition_duration>
+<ctrl_layer_soundOutLinkToAlphaAndCrossfader>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="72" valueDefault="1"/>
+</ctrl_layer_soundOutLinkToAlphaAndCrossfader>
+<ctrl_layer_soundOutBalance>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="73" valueDefault="0.500000"/>
+</ctrl_layer_soundOutBalance>
+<ctrl_layer_soundOutLevel>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="74" valueDefault="1"/>
+</ctrl_layer_soundOutLevel>
+<ctrl_layer_movie_positionOut>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="75" valueDefault="1"/>
+</ctrl_layer_movie_positionOut>
+<ctrl_layer_movie_positionIn>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="76" valueDefault="0"/>
+</ctrl_layer_movie_positionIn>
+<ctrl_layer_movie_shuttle1>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="77" valueDefault="0"/>
+</ctrl_layer_movie_shuttle1>
+<ctrl_layer_movie_shuttle2>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="78" valueDefault="0"/>
+</ctrl_layer_movie_shuttle2>
+<ctrl_layer_movie_playDirection>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="79" valueDefault="0"/>
+</ctrl_layer_movie_playDirection>
+<ctrl_layer_movie_loopMode>
+<node address="instance" object="Data" instance="10" service="parameter" type="integer" repetitionsFilter="1" rangeBounds="0 2" priority="80" valueDefault="0"/>
+</ctrl_layer_movie_loopMode>
+<ctrl_layer_movie_speedFactor>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="81" valueDefault="0.250000"/>
+</ctrl_layer_movie_speedFactor>
+<ctrl_layer_color_additiveB>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="82" valueDefault="0"/>
+</ctrl_layer_color_additiveB>
+<ctrl_layer_color_additiveG>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="83" valueDefault="0"/>
+</ctrl_layer_color_additiveG>
+<ctrl_layer_color_additiveR>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="84" valueDefault="0"/>
+</ctrl_layer_color_additiveR>
+<ctrl_layer_color_modulateB>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="85" valueDefault="1"/>
+</ctrl_layer_color_modulateB>
+<ctrl_layer_color_modulateG>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="86" valueDefault="1"/>
+</ctrl_layer_color_modulateG>
+<ctrl_layer_color_modulateR>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="87" valueDefault="1"/>
+</ctrl_layer_color_modulateR>
+<ctrl_layer_scale_z>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="88" valueDefault="0"/>
+</ctrl_layer_scale_z>
+<ctrl_layer_scale_y>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="89" valueDefault="0"/>
+</ctrl_layer_scale_y>
+<ctrl_layer_scale_x>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="90" valueDefault="0"/>
+</ctrl_layer_scale_x>
+<ctrl_layer_scale_uniform>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="91" valueDefault="0.500000"/>
+</ctrl_layer_scale_uniform>
+<ctrl_layer_scale_factorXYZ>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 10" priority="92" valueDefault="10"/>
+</ctrl_layer_scale_factorXYZ>
+<ctrl_layer_scale_factorUniform>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 2" priority="93" valueDefault="2"/>
+</ctrl_layer_scale_factorUniform>
+<ctrl_layer_scale_normalizeOn>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="94" valueDefault="0"/>
+</ctrl_layer_scale_normalizeOn>
+<ctrl_layer_fieldOfView>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="95" valueDefault="0.500000"/>
+</ctrl_layer_fieldOfView>
+<ctrl_layer_rotation_z>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="96" valueDefault="0"/>
+</ctrl_layer_rotation_z>
+<ctrl_layer_rotation_y>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="97" valueDefault="0"/>
+</ctrl_layer_rotation_y>
+<ctrl_layer_rotation_x>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="98" valueDefault="0"/>
+</ctrl_layer_rotation_x>
+<ctrl_layer_pixelFX_noiseOn>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="99" valueDefault="0"/>
+</ctrl_layer_pixelFX_noiseOn>
+<ctrl_layer_pixelFX_noiseAlpha>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="1000" valueDefault="0"/>
+</ctrl_layer_pixelFX_noiseAlpha>
+<ctrl_layer_pixelFX_noiseRGBOn>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="1001" valueDefault="1"/>
+</ctrl_layer_pixelFX_noiseRGBOn>
+<ctrl_layer_pixelFX_noiseColored>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="1002" valueDefault="0"/>
+</ctrl_layer_pixelFX_noiseColored>
+<ctrl_layer_pixelFX_noiseLevel>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="1003" valueDefault="0.500000"/>
+</ctrl_layer_pixelFX_noiseLevel>
+<ctrl_layer_pixelFX_lightnessOn>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="1004" valueDefault="0"/>
+</ctrl_layer_pixelFX_lightnessOn>
+<ctrl_layer_pixelFX_lightnessType>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="1005" valueDefault="0"/>
+</ctrl_layer_pixelFX_lightnessType>
+<ctrl_layer_pixelFX_lightnessLevel>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="1006" valueDefault="0.500000"/>
+</ctrl_layer_pixelFX_lightnessLevel>
+<ctrl_layer_pixelFX_blurOn>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="1007" valueDefault="0"/>
+</ctrl_layer_pixelFX_blurOn>
+<ctrl_layer_pixelFX_blurType>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="1008" valueDefault="0"/>
+</ctrl_layer_pixelFX_blurType>
+<ctrl_layer_pixelFX_blurLevel>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="1009" valueDefault="0.500000"/>
+</ctrl_layer_pixelFX_blurLevel>
+<ctrl_layer_pixelFX_saturationOn>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="1010" valueDefault="0"/>
+</ctrl_layer_pixelFX_saturationOn>
+<ctrl_layer_pixelFX_saturationInverse>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="1011" valueDefault="0"/>
+</ctrl_layer_pixelFX_saturationInverse>
+<ctrl_layer_pixelFX_saturationBoost>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="1012" valueDefault="0"/>
+</ctrl_layer_pixelFX_saturationBoost>
+<ctrl_layer_pixelFX_saturationLevel>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="1013" valueDefault="0.500000"/>
+</ctrl_layer_pixelFX_saturationLevel>
+<ctrl_layer_pixelFX_contrastOn>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="1014" valueDefault="0"/>
+</ctrl_layer_pixelFX_contrastOn>
+<ctrl_layer_pixelFX_contrastInverse>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="1015" valueDefault="0"/>
+</ctrl_layer_pixelFX_contrastInverse>
+<ctrl_layer_pixelFX_contrastBoost>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="1016" valueDefault="0"/>
+</ctrl_layer_pixelFX_contrastBoost>
+<ctrl_layer_pixelFX_contrastLevel>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="1017" valueDefault="0.500000"/>
+</ctrl_layer_pixelFX_contrastLevel>
+<ctrl_layer_pixelFX_lumaOn>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="1018" valueDefault="0"/>
+</ctrl_layer_pixelFX_lumaOn>
+<ctrl_layer_pixelFX_lumaType>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="1019" valueDefault="1"/>
+</ctrl_layer_pixelFX_lumaType>
+<ctrl_layer_pixelFX_lumaPreserveAlpha>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="1020" valueDefault="1"/>
+</ctrl_layer_pixelFX_lumaPreserveAlpha>
+<ctrl_layer_blendMode>
+<node address="instance" object="Data" instance="10" service="parameter" type="integer" repetitionsFilter="1" rangeBounds="0 5" priority="1021" valueDefault="0"/>
+</ctrl_layer_blendMode>
+<ctrl_layer_record_stopPlayRec>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="1022" valueDefault="0"/>
+</ctrl_layer_record_stopPlayRec>
+<ctrl_layer_position_y>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="1023" valueDefault="0"/>
+</ctrl_layer_position_y>
+<ctrl_layer_position_x>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="1024" valueDefault="0"/>
+</ctrl_layer_position_x>
+<ctrl_layer_hidden>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="1025" valueDefault="0"/>
+</ctrl_layer_hidden>
+<ctrl_layer_alpha>
+<node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="1026" valueDefault="1"/>
+</ctrl_layer_alpha>
+<ctrl_layer_record_eraseOn>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="1027" valueDefault="0"/>
+</ctrl_layer_record_eraseOn>
+<ctrl_layer_focused>
+<node address="instance" object="Data" instance="10" service="return" type="boolean" rangeBounds="0 1" priority="1028"/>
+</ctrl_layer_focused>
+<ctrl_layer_stackPosition>
+<node address="instance" object="Data" instance="10" service="return" type="integer" rangeBounds="0 10" priority="1029"/>
+</ctrl_layer_stackPosition>
+<ctrl_layer_activated>
+<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="1030" valueDefault="1"/>
+</ctrl_layer_activated>
+  </md8key>
+ </application>>
+</jamoma>
