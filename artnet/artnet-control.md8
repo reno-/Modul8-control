@@ -94,7 +94,7 @@
 				<key>(g3_ASCII)ctrlPriv_layer_movieTab</key>
 				<string>(g3_INT)0</string>
 				<key>(g3_ASCII)ctrl_layer_alpha</key>
-				<string>(g3_FLOAT)0.000000</string>
+				<string>(g3_INT)1</string>
 				<key>(g3_ASCII)ctrl_layer_auto_moveOn</key>
 				<string>(g3_INT)0</string>
 				<key>(g3_ASCII)ctrl_layer_auto_moveSize</key>
@@ -116,7 +116,7 @@
 				<key>(g3_ASCII)ctrl_layer_color_modulateR</key>
 				<string>(g3_INT)1</string>
 				<key>(g3_ASCII)ctrl_layer_fieldOfView</key>
-				<string>(g3_FLOAT)0.000000</string>
+				<string>(g3_FLOAT)0.500000</string>
 				<key>(g3_ASCII)ctrl_layer_media</key>
 				<string>(g3_INT)3</string>
 				<key>(g3_ASCII)ctrl_layer_movie_loopMode</key>
@@ -124,9 +124,9 @@
 				<key>(g3_ASCII)ctrl_layer_movie_playDirection</key>
 				<string>(g3_FLOAT)0.000000</string>
 				<key>(g3_ASCII)ctrl_layer_movie_positionIn</key>
-				<string>(g3_INT)0</string>
+				<string>(g3_FLOAT)0.000000</string>
 				<key>(g3_ASCII)ctrl_layer_movie_positionOut</key>
-				<string>(g3_FLOAT)0.810000</string>
+				<string>(g3_INT)1</string>
 				<key>(g3_ASCII)ctrl_layer_movie_shuttle1</key>
 				<string>(g3_FLOAT)0.775000</string>
 				<key>(g3_ASCII)ctrl_layer_movie_shuttle2</key>
@@ -134,7 +134,7 @@
 				<key>(g3_ASCII)ctrl_layer_movie_speedFactor</key>
 				<string>(g3_FLOAT)0.250000</string>
 				<key>(g3_ASCII)ctrl_layer_pixelFX_blurLevel</key>
-				<string>(g3_FLOAT)0.000000</string>
+				<string>(g3_FLOAT)0.788235</string>
 				<key>(g3_ASCII)ctrl_layer_pixelFX_blurOn</key>
 				<string>(g3_FLOAT)0.000000</string>
 				<key>(g3_ASCII)ctrl_layer_pixelFX_blurType</key>
@@ -178,21 +178,21 @@
 				<key>(g3_ASCII)ctrl_layer_pixelFX_saturationOn</key>
 				<string>(g3_FLOAT)0.000000</string>
 				<key>(g3_ASCII)ctrl_layer_rotation_x</key>
-				<string>(g3_FLOAT)0.175000</string>
+				<string>(g3_INT)0</string>
 				<key>(g3_ASCII)ctrl_layer_rotation_y</key>
-				<string>(g3_FLOAT)0.095000</string>
+				<string>(g3_INT)0</string>
 				<key>(g3_ASCII)ctrl_layer_rotation_z</key>
-				<string>(g3_FLOAT)0.045000</string>
+				<string>(g3_INT)0</string>
 				<key>(g3_ASCII)ctrl_layer_scale_factorXYZ</key>
 				<string>(g3_INT)1</string>
 				<key>(g3_ASCII)ctrl_layer_scale_uniform</key>
-				<string>(g3_INT)1</string>
+				<string>(g3_FLOAT)0.500000</string>
 				<key>(g3_ASCII)ctrl_layer_scale_x</key>
-				<string>(g3_FLOAT)0.000000</string>
+				<string>(g3_INT)0</string>
 				<key>(g3_ASCII)ctrl_layer_scale_y</key>
-				<string>(g3_FLOAT)0.000000</string>
+				<string>(g3_INT)0</string>
 				<key>(g3_ASCII)ctrl_layer_scale_z</key>
-				<string>(g3_FLOAT)0.000000</string>
+				<string>(g3_INT)0</string>
 				<key>(g3_ASCII)ctrl_layer_soundOutBalance</key>
 				<string>(g3_FLOAT)0.735000</string>
 				<key>(g3_ASCII)ctrl_layer_soundOutLevel</key>
@@ -212,7 +212,7 @@
 				<key>(g3_ASCII)ctrl_layer_transformer_matrix_zValue</key>
 				<string>(g3_INT)5</string>
 				<key>(g3_ASCII)ctrl_layer_transformer_on</key>
-				<string>(g3_INT)1</string>
+				<string>(g3_INT)0</string>
 				<key>(g3_ASCII)ctrl_layer_transformer_type</key>
 				<string>(g3_INT)0</string>
 				<key>(g3_ASCII)ctrl_layer_transition_duration</key>
@@ -220,7 +220,7 @@
 				<key>(g3_ASCII)ctrl_layer_transition_durationDelta</key>
 				<string>(g3_INT)0</string>
 				<key>(g3_ASCII)ctrl_layer_transition_type</key>
-				<string>(g3_INT)1</string>
+				<string>(g3_INT)0</string>
 				<key>(g3_ASCII)layerActivated</key>
 				<string>(g3_INT)1</string>
 			</dict>
@@ -20038,9 +20038,9 @@
 				<dict>
 					<key>(g3_ASCII)absAngles</key>
 					<array>
-						<string>(g3_FLOAT)63.000000</string>
-						<string>(g3_FLOAT)34.200000</string>
-						<string>(g3_FLOAT)16.200000</string>
+						<string>(g3_FLOAT)0.000000</string>
+						<string>(g3_FLOAT)0.000000</string>
+						<string>(g3_FLOAT)0.000000</string>
 					</array>
 					<key>(g3_ASCII)absColorAdditive</key>
 					<array>
@@ -20053,19 +20053,19 @@
 						<string>(g3_INT)1</string>
 						<string>(g3_FLOAT)1.000000</string>
 						<string>(g3_FLOAT)1.000000</string>
-						<string>(g3_FLOAT)0.000000</string>
+						<string>(g3_INT)1</string>
 					</array>
 					<key>(g3_ASCII)absPosition</key>
 					<array>
 						<string>(g3_INT)0</string>
 						<string>(g3_INT)0</string>
-						<string>(g3_FLOAT)2743.212553</string>
+						<string>(g3_FLOAT)415.692194</string>
 					</array>
 					<key>(g3_ASCII)absScale</key>
 					<array>
-						<string>(g3_FLOAT)1.000000</string>
-						<string>(g3_FLOAT)1.000000</string>
-						<string>(g3_FLOAT)1.000000</string>
+						<string>(g3_INT)1</string>
+						<string>(g3_INT)1</string>
+						<string>(g3_INT)1</string>
 					</array>
 					<key>(g3_ASCII)absTimeRate</key>
 					<string>(g3_FLOAT)1.000000</string>
@@ -20086,7 +20086,7 @@
 					<key>(g3_ASCII)blurPos</key>
 					<string>(g3_INT)5</string>
 					<key>(g3_ASCII)blurValue</key>
-					<string>(g3_FLOAT)0.000000</string>
+					<string>(g3_FLOAT)0.788235</string>
 					<key>(g3_ASCII)blurVlevel</key>
 					<string>(g3_INT)1</string>
 					<key>(g3_ASCII)brightness</key>
@@ -20157,9 +20157,9 @@
 					<key>(g3_ASCII)deltaPixelRatio</key>
 					<string>(g3_INT)1</string>
 					<key>(g3_ASCII)deltaScaleUniform</key>
-					<string>(g3_INT)2</string>
+					<string>(g3_FLOAT)1.000000</string>
 					<key>(g3_ASCII)fieldOfView</key>
-					<string>(g3_FLOAT)10.000000</string>
+					<string>(g3_FLOAT)60.000000</string>
 					<key>(g3_ASCII)forceMovieTimePosition</key>
 					<string>(g3_NONE)-</string>
 					<key>(g3_ASCII)fx_AnglesDelta</key>
@@ -20273,7 +20273,7 @@
 						<string>(g3_FLOAT)0.000000</string>
 					</array>
 					<key>(g3_ASCII)fx_autoMove_speed</key>
-					<string>(g3_FLOAT)0.359124</string>
+					<string>(g3_FLOAT)0.359125</string>
 					<key>(g3_ASCII)fx_autoMove_xyOn</key>
 					<array>
 						<string>(g3_INT)1</string>
@@ -20406,8 +20406,8 @@
 					<string>(g3_FLOAT)0.775000</string>
 					<key>(g3_ASCII)normTimeSelection</key>
 					<array>
-						<string>(g3_INT)0</string>
-						<string>(g3_FLOAT)0.810000</string>
+						<string>(g3_FLOAT)0.000000</string>
+						<string>(g3_INT)1</string>
 					</array>
 					<key>(g3_ASCII)normalizeScale</key>
 					<string>(g3_INT)0</string>
@@ -20456,7 +20456,7 @@
 					<key>(g3_ASCII)timeRateDirection</key>
 					<string>(g3_INT)1</string>
 					<key>(g3_ASCII)transformer</key>
-					<string>(g3_INT)1</string>
+					<string>(g3_INT)0</string>
 					<key>(g3_ASCII)transformerApplyLocalParticlesAngle</key>
 					<string>(g3_INT)1</string>
 					<key>(g3_ASCII)transformerDict</key>
@@ -20492,7 +20492,7 @@
 						<key>(g3_ASCII)MATRIX_EXTRUDE</key>
 						<string>(g3_INT)1</string>
 						<key>(g3_ASCII)MATRIX_EXTRUDE_SIZE</key>
-						<string>(g3_FLOAT)137.142857</string>
+						<string>(g3_FLOAT)137.142600</string>
 						<key>(g3_ASCII)MATRIX_FLIP_X_MXEVEN_MYEVEN</key>
 						<string>(g3_INT)0</string>
 						<key>(g3_ASCII)MATRIX_FLIP_X_MXEVEN_MYUNEVEN</key>
@@ -20522,7 +20522,7 @@
 						<key>(g3_ASCII)MATRIX_Z_SIZE</key>
 						<string>(g3_INT)5</string>
 						<key>(g3_ASCII)MATRIX_Z_SPACE</key>
-						<string>(g3_FLOAT)157.142857</string>
+						<string>(g3_FLOAT)157.143000</string>
 						<key>(g3_ASCII)PEMITTER_AUTO_ANIMATE</key>
 						<string>(g3_INT)0</string>
 						<key>(g3_ASCII)PEMITTER_CUTOFF_ANGLEX</key>
@@ -20561,7 +20561,7 @@
 					<key>(g3_ASCII)transitionMediaTimeDelta</key>
 					<string>(g3_INT)1</string>
 					<key>(g3_ASCII)transitionMediaType</key>
-					<string>(g3_INT)1</string>
+					<string>(g3_INT)0</string>
 				</dict>
 			</array>
 			<array>
