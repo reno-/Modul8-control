@@ -39069,7 +39069,7 @@
 			<key>(g3_ASCII)name</key>
 			<string>(g3_ASCII)DMX fixture (dmx)</string>
 			<key>(g3_ASCII)state</key>
-			<string>(g3_ASCII)Playing</string>
+			<string>(g3_ASCII)Paused</string>
 		</dict>
 		<dict>
 			<key>(g3_ASCII)name</key>
