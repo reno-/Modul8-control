@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 2.0, 44.0, 405.0, 736.0 ],
+		"rect" : [ 868.0, 94.0, 400.0, 566.0 ],
 		"bgcolor" : [ 0.176471, 0.294118, 0.439216, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -19,7 +19,7 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 0,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
 		"enablehscroll" : 1,
@@ -98,7 +98,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -135,7 +135,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -800,7 +800,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -1354,7 +1354,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -1736,7 +1736,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -2190,7 +2190,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -2224,7 +2224,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 114.041687, 217.0, 152.0, 27.0 ],
-													"text" : "/md8key/ctrl_master_soundLevelCapture/0 0.666667"
+													"text" : "/md8key/ctrl_layer_alpha/-1 0. 0. 0. 0. 0. 0. 0. 0. 0. 1"
 												}
 
 											}
@@ -2596,7 +2596,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -3050,7 +3050,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -8631,7 +8631,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -9427,7 +9427,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -10956,7 +10956,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -13193,6 +13193,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "none",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-1",
@@ -13208,6 +13209,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "none",
 					"args" : [ "cue.1" ],
 					"bgmode" : 1,
 					"border" : 1,
@@ -13218,7 +13220,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 3.0, 86.5, 391.0, 655.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 73.0, 392.0, 657.0 ]
+					"presentation_rect" : [ 2.0, 73.0, 392.0, 489.0 ]
 				}
 
 			}
@@ -13294,11 +13296,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 527.0, 177.0, 311.0, 284.0 ],
+						"rect" : [ 268.0, 136.0, 311.0, 284.0 ],
 						"bgcolor" : [ 0.176471, 0.294118, 0.439216, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -14090,7 +14092,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -15619,7 +15621,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -17913,7 +17915,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -17937,19 +17939,6 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 184.0, 252.0, 100.0, 20.0 ],
-									"text" : "print ##"
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -18144,15 +18133,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-2", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-27", 0 ]
 								}
 
 							}
@@ -18428,7 +18408,7 @@
 			}
 , 			{
 				"name" : "cue.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/layer-control/max-package/patchers/cue",
+				"bootpath" : "/Users/reno/Documents/GITs/Modul8-control/jamoma/patchers/cue",
 				"patcherrelativepath" : "./patchers/cue",
 				"type" : "JSON",
 				"implicit" : 1
@@ -18442,7 +18422,7 @@
 			}
 , 			{
 				"name" : "cue.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/layer-control/max-package/patchers/cue",
+				"bootpath" : "/Users/reno/Documents/GITs/Modul8-control/jamoma/patchers/cue",
 				"patcherrelativepath" : "./patchers/cue",
 				"type" : "JSON",
 				"implicit" : 1
