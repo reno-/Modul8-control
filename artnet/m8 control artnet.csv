@@ -1,0 +1,52 @@
+Canal DMX,Parameter
+1,opacity
+2,mute
+3,media
+4,red
+5,green
+6,blue
+7,red+
+8,green+
+9,blue+
+10,position x
+11,position y
+12,zoom
+13,zoom factor
+14,scale x
+15,scale y
+16,scale z
+17,scale factor
+18,rotate x
+19,rotate y
+20,rotate z
+21,field of view
+22,speed
+23,loop
+24,direction
+25,loop in
+26,loop out
+27,entry point
+28,scratch
+29,blend mode
+30,saturation on/off
+31,sat boost
+32,sat inverse
+33,sat level
+34,lightness on/off
+35,light mode
+36,light level
+37,contrast on/off
+38,contrast boost
+39,contrast inverse
+40,contrast level
+41,lumakey on/off
+42,lumakey type
+43,lumakey alpha
+44,noise on/off
+45,noise colored
+46,noise RGB
+47,noise alpha
+48,noise level
+49,blur on/off
+50,blur type
+51,blur level
